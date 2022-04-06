@@ -1,0 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(27, 131, 210);
+    height: 30px;
+}
+li{
+    list-style-type: none;
+    justify-content: center;
+    flex: auto;
+    padding-left: 10%;
+}
+li>a{
+    color: white;
+}
+p,input,textarea,h3{
+    transform: translateX(5px);
+}
